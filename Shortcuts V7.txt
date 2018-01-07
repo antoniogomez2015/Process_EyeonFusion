@@ -1,0 +1,116 @@
+
+
+Navegación: (para los viewers)
+
+	-pan: Mouse Midle Button + Draw
+
+	-Zoom In/Out: Mouse Midle Button + Right Button + Draw Left/Right
+
+	-Zoom In partial: Mouse Midle button + Left button click
+
+	-Zoom In/Out por pasos: +/-
+
+	-Fit frame nodograph/flow: Control + 1
+
+	-1view/4view: Control + Q/Q (con el viewer seleccionado)
+
+	-next/preview keyframe: Alt + []
+
+	-intercambiar entre composiciones activas: Control + F6
+
+	-viewer 3d pan: Mouse Midle Butom + Draw
+
+	-viewer 3d Zoom In/Out: "Mouse Midle Click + Left Butom click + Draw Left/Right", ó "Control + Mouse Scroll"
+
+	-viewer 3d orbit: "Mouse Midle + Right Button click + Draw Left/Right", ó "Alt + Mouse Midle Button + Draw Left/Right"
+
+	-3D translate axis: Q (con el viewer seleccionado)
+
+	-3D rotate axis: W (con el viewer seleccionado)
+
+	-3D scale axis: E (con el viewer seleccionado)
+
+	
+
+
+
+
+interface y visualización:
+
+	-canales en un viewer, seleccionado: Red/R, Green/G, Blue/B, Alpha/A, Color/C, Color-rgb/RR,GG,BB,AA
+
+	-centrar la composición en un viewer: Control + F
+
+	-fit a 100%, en contenido en el viewer: Control 1
+
+	-maximinar un panel: F4	
+
+	-find búsquedas en el Nodograph: Control + F
+
+	-viewer guides/safes: Control +G
+
+	_panel nodograph/flow: F5
+
+	-panel console: F6
+
+	-panel timeline: F7
+
+	-panel spine: F8
+
+
+	
+
+Paneles:
+
+
+	-bins: Control + B
+
+	-fuzionmonger: Control + Shift + B
+
+	-stress reducer (GAME): Control + Shift + H
+
+	-about fusion: Control + Shift + (-)
+
+
+
+
+Nodograph/flow workflow y desarrollo:
+
+	-crear nodos: en el nodograph/flow
+
+		-a través de los iconos de rápidos de la barra superior de la interface
+
+		-haciendo "mouse right click/Add tool", sobre nodograpth/flow
+
+		-control + space, sobre el nodograph/flow
+
+		-bins, de toll category: Control + B
+
+	-selecto all nodes: Control + A
+
+	-visualizar un nodo en el viewer ó compositor: keyboar 1,2 ó "mouse left + click + draw", a uno de los viewer
+
+	-opciones al conectar nodos: hacer "mouse right click + draw", en el output, de nodo deseado y arrastrar hasta el nodo deseado así, 
+
+		saldrán las opciones para elegir si deseamos conectarlo como "foreground/background/mask"
+
+	-rename nodos_ F2
+
+
+
+
+Nodos creación y características
+
+	-marge: este nodo permite superpones dos footages ó media file, en un solo nodo compuesto
+
+		-crear un nodo "marge", primero seleccionamos el source, que hará de foregorund, y luego el que hará de backgorund, así, entre estos nodos se creará un nodo de tipo "marge"
+
+		-invertir los inputs, foreground/background: "Control + W"
+
+
+
+Animación
+
+
+	-crear fotogramas/keyframes: mouse right + click, sobre la propiedad deseada y select key
+
